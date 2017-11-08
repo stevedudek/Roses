@@ -200,7 +200,7 @@ void drawBottomControls() {
   line(140,SCREEN_SIZE,140,SCREEN_SIZE+40);
   line(290,SCREEN_SIZE,290,SCREEN_SIZE+40);
   line(470,SCREEN_SIZE,470,SCREEN_SIZE+40);
-  line(610,SCREEN_SIZE,620,SCREEN_SIZE+40);
+  line(610,SCREEN_SIZE,610,SCREEN_SIZE+40);
   
   // draw checkboxes
   stroke(0);

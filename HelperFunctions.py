@@ -228,7 +228,7 @@ def wheel(color):
 # Picks a color in which one rgb channel is off and the other two channels
 # revolve around a color wheel
 def gradient_wheel(color, intense):
-	saturation = sin(3.14 * datetime.datetime.today().second / 60) * 125
+	saturation = sin(3.14 * datetime.datetime.today().second / 60) * 62
 	color = color % maxColor  # just in case color is out of bounds
 	channel = color // 256;
 	value = color % 256;
